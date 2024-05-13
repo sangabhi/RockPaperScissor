@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px; 
+}
+#heading{
+    background-color: blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+}
+body{
+    background-color :aqua
+}
+.choices{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.choice{
+    width: 20vmin;
+    height: 20vmin;
+    border: 1px solid black;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 50%;
+}
+.choice:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+#rock{
+    background-image: url(rock.jpeg);
+    background-size: cover;
+}
+#paper{
+    background-image: url(paper.jpeg);
+    background-size: cover;
+}
+#scissor{
+    background-image: url(scisssor.jpeg);
+    background-size: cover;
+}
+.name{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.score{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+#button{
+    position: absolute;
+top: 80%;
+left: 40%;
+height: 5vmin;
+background-color: rgb(141, 20, 121);
+color: black;
+}
